@@ -25,6 +25,5 @@ dependencies:
   - statsmodels=0.14.4
   - sympy=1.13.3
   - pytorch==2.8.0
-  - cpuonly
   - torchdata
   - xarray=2024.11.0
