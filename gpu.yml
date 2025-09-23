@@ -1,8 +1,7 @@
 channels:
-  - https://repo.anaconda.com/pkgs/main
   - conda-forge
   - nvidia
-  - pytorch
+  - defaults
 dependencies:
   - python=3.12
   - altair=5.5.0
