@@ -1,6 +1,5 @@
 channels:
   - conda-forge
-  - nvidia
   - defaults
 dependencies:
   - python=3.12
@@ -24,6 +23,5 @@ dependencies:
   - seaborn=0.13.2
   - statsmodels=0.14.4
   - sympy=1.13.3
-  - pytorch==2.8.0
-  - torchdata
+  - pytorch
   - xarray=2024.11.0
