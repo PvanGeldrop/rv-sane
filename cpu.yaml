@@ -3,6 +3,7 @@ channels:
   - defaults
 dependencies:
   - python=3.12
+  - marimo
   - altair=5.5.0
   - arviz=0.21.0
   - bokeh=3.6.2
