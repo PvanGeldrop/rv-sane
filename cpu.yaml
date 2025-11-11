@@ -4,6 +4,7 @@ channels:
 dependencies:
   - python=3.12
   - marimo
+  - polars
   - altair=5.5.0
   - arviz=0.21.0
   - bokeh=3.6.2
