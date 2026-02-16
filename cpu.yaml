@@ -3,20 +3,21 @@ channels:
   - defaults
 dependencies:
   - python=3.12
-  - marimo
-  - polars
   - altair=5.5.0
   - arviz=0.21.0
   - bokeh=3.6.2
   - cvxpy=1.6.5
   - dask=2025.2.0
+  - duckdb=1.4.3
   - h5netcdf=1.2.0
   - h5py=3.12.1
   - jupyterlab=4.2.5
   - keras=3.6.0
+  - marimo=0.19.11
   - matplotlib=3.10.0
   - numpy=1.26.4
   - pandas=2.2.3
+  - polars=1.38.1
   - pymc=5.16.1
   - pytensor=2.23.0
   - qdldl-python=0.1.7.post5
@@ -26,6 +27,6 @@ dependencies:
   - statsmodels=0.14.4
   - sympy=1.13.3
   - xarray=2024.11.0
-  - pip
+  - pip=26.0.1
   - pip:
-    - torch
+    - torch==2.10.0
