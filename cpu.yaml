@@ -13,6 +13,7 @@ dependencies:
   - h5py=3.12.1
   - jupyterlab=4.2.5
   - keras=3.6.0
+  - kmodes=0.12.2
   - marimo=0.19.11
   - matplotlib=3.10.0
   - numpy=1.26.4
