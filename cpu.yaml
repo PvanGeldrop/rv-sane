@@ -16,8 +16,10 @@ dependencies:
   - kmodes=0.12.2
   - marimo=0.19.11
   - matplotlib=3.10.0
+  - nbconvert=7.17.1
   - numpy=1.26.4
   - pandas=2.2.3
+  - playwright-python=1.60.0
   - polars=1.38.1
   - pymc=5.16.1
   - pytensor=2.23.0
