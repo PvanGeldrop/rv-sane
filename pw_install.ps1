@@ -1,6 +1,5 @@
-# 1. Define paths
-$MinicondaPath = "C:\Miniconda3" # Update to your Conda path
-$EnvName = "sane-env"         # Update to your Conda environment name
+$MinicondaPath = "C:\Miniconda3"
+$EnvName = "sane-env"
 $SharedBrowserPath = "C:\PlaywrightBrowsers"
 
 New-Item -ItemType Directory -Force -Path $SharedBrowserPath | Out-Null
@@ -13,5 +12,3 @@ Import-Module "$MinicondaPath\shell\condabin\Conda.psm1"
 conda activate $EnvName
 
 playwright install chromium
-
-Write-Host "Playwright installation complete. The UI button will now work offline."
