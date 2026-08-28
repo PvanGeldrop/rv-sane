@@ -29,6 +29,3 @@ dependencies:
   - sympy=1.13.3
   - xarray=2024.11.0
   - pip
-  - pip:
-    - --index-url https://download.pytorch.org/whl/cu129
-    - torch
