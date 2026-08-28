@@ -1,7 +1,6 @@
 channels:
-  - defaults
-  - https://repo.anaconda.com/pkgs/main
   - conda-forge
+  - defaults
 dependencies:
   - python=3.12
   - altair=5.5.0
@@ -9,13 +8,19 @@ dependencies:
   - bokeh=3.6.2
   - cvxpy=1.6.5
   - dask=2025.2.0
+  - duckdb=1.4.3
   - h5netcdf=1.2.0
   - h5py=3.12.1
   - jupyterlab=4.2.5
   - keras=3.6.0
+  - kmodes=0.12.2
+  - marimo=0.24.0
   - matplotlib=3.10.0
+  - nbconvert=7.17.1
   - numpy=1.26.4
   - pandas=2.2.3
+  - playwright
+  - polars=1.38.1
   - pymc=5.16.1
   - pytensor=2.23.0
   - qdldl-python=0.1.7.post5
@@ -24,6 +29,5 @@ dependencies:
   - seaborn=0.13.2
   - statsmodels=0.14.4
   - sympy=1.13.3
-  - pip # Dit mag conda lekker zelf uitzoeken
-  - pytorch=2.5.1
   - xarray=2024.11.0
+  - pip
