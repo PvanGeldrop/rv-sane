@@ -1,0 +1,8 @@
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12
+  - marimo=0.24.0
+  - nbconvert=7.17.1
+  - playwright-python=1.60.0
