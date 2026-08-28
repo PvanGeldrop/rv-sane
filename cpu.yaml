@@ -14,7 +14,7 @@ dependencies:
   - jupyterlab=4.2.5
   - keras=3.6.0
   - kmodes=0.12.2
-  - marimo=0.19.11
+  - marimo=0.24.0
   - matplotlib=3.10.0
   - nbconvert=7.17.1
   - numpy=1.26.4
