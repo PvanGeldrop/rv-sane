@@ -18,7 +18,7 @@ dependencies:
   - nbconvert=7.17.1
   - numpy=1.26.4
   - pandas=2.2.3
-  - playwright-python=1.60.0
+  - playwright
   - pymc=5.16.1
   - pytensor=2.23.0
   - qdldl-python=0.1.7.post5
