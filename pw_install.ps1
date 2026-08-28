@@ -8,7 +8,7 @@ New-Item -ItemType Directory -Force -Path $SharedBrowserPath | Out-Null
 
 $env:PLAYWRIGHT_BROWSERS_PATH = $SharedBrowserPath
 
-Import-Module "$MinicondaPath\shell\condabin\Conda.psm1"
-conda activate $EnvName
+Import-Module "$MinicondaPath\shell\condabin\Conda.psm1" 2>&1  Write-Output
+conda activate $EnvName 2>&1 | Write-Output
 
-python -m playwright install chromium 2>&1 | Write-Host
+python -m playwright install chromium 2>&1 | Write-Output
