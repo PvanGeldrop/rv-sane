@@ -11,4 +11,4 @@ $env:PLAYWRIGHT_BROWSERS_PATH = $SharedBrowserPath
 Import-Module "$MinicondaPath\shell\condabin\Conda.psm1"
 conda activate $EnvName
 
-python -m playwright install chromium
+python -m playwright install chromium 2>&1 | Write-Host
