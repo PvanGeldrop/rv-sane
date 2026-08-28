@@ -1,7 +1,5 @@
 $MinicondaPath = "C:\Miniconda3"
 $EnvName = "sane-env"
+$CondaExe = "$MinicondaPath\Scripts\conda.exe"
 
-Import-Module "$MinicondaPath\shell\condabin\Conda.psm1"
-conda activate $EnvName
-
-python -m pip install "torch==2.10.0" 2>&1 | Write-Host
+& $CondaExe run -n $EnvName python -m pip install "torch==2.10.0" 2>&1 | Write-Host
